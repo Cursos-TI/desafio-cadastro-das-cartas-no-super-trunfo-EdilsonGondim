@@ -8,7 +8,7 @@
 
 int main() {
 
-    char Estado;
+    char estado;
     char cdc[10]; //cdc = código da cidade.
     char ndc[20]; // ndc = nome da cidade;  
     int populacao;
@@ -17,8 +17,8 @@ int main() {
     int npt; //npt = número de ponto turístico.
     
     printf("=-=-=-=-=- CARTAS SUPER TRUNFO -=-=-=-=-=\n");
-    printf("Digite o nome da cidade: ");
-    scanf("%s", &ndc);
+    printf("Digite o nome do Estado: ");
+    scanf("%c", &estado);
 
     return 0;
 }
