@@ -8,6 +8,7 @@
 
 int main() {
 
+    //Iniciando o código.
     char estado;
     char cdc[10]; //cdc = código da cidade.
     char ndc[20]; // ndc = nome da cidade;  
