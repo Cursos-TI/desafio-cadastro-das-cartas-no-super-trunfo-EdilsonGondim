@@ -26,19 +26,18 @@ int main() {
     printf("POPULACÃO: \n");
     scanf("%d", &populacao);  
 
-    printf("AREA EM KM²: ");
-    scanf("%f km²", &area_em_km);
+    printf("ÁREA EM KM²: ");
+    scanf("%f", &area_em_km);
 
     printf("PIB: ");
-    scanf("%f bilhões de pessoas", &pib);
+    scanf("%f", &pib);
 
-    printf("\nNUMERO DE PONTOS TURÍSTICOS: \n");
+    printf("NÚMERO DE PONTOS TURÍSTICOS: \n");
     scanf("%d", &numero_ponto_turistico);
     
     printf("\n======CARTA 1 CADASTRADA COM SUCESSO======\n");
 
-    printf("ESTADO: %c\nCODIGO DA CARTA: %s\nNOME DA CIDADE: %s\nPOPULACAO: %d\nAREA EM KM²: %f\nPIB: %f\nNUMERO DE PONTOS TURISTICOS: %d\n\n", estado, codigo_da_carta, nome_da_cidade, populacao, area_em_km, pib, numero_ponto_turistico);
-
+    printf("ESTADO: %c\nCÓDIGO DA CARTA: %s\nNOME DA CIDADE: %s\nPOPULAÇÃO: %d\nÁREA EM KM²: %.2f KM²\nPIB: %.2f Bilhões de reais\nNÚMERO DE PONTOS TURISTICOS: %d\n\n", estado, codigo_da_carta, nome_da_cidade, populacao, area_em_km, pib, numero_ponto_turistico);
 
     return 0;
 }
