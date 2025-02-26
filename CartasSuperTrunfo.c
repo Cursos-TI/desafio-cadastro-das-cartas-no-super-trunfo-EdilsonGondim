@@ -38,7 +38,7 @@ int main() {
 
     pib_per_capita = pib / populacao;
 
-    printf("\n\n======CARTA 1 CADASTRADA COM SUCESS======\n");
+    printf("\n\n======CARTA 1 CADASTRADA COM SUCESSO======\n");
 
     printf("ESTADO: %c\nCÓDIGO DA CARTA: %s\nNOME DA CIDADE: %s\nPOPULAÇÃO: %d\nÁREA EM KM²: %.2f KM²\nPIB: %.2f Bilhões de reais\nNÚMERO DE PONTOS TURISTICOS: %d\nDENSIDADE POPULACIONAL %.2f hab/km²\nPIB PER CAPITA %.2f reais", estado, codigo_da_carta, nome_da_cidade, populacao, area_em_km, pib, numero_ponto_turistico, densidade_populacional, pib_per_capita);
 
